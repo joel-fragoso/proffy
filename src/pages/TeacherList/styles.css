@@ -7,9 +7,13 @@
   margin-top: 3.2rem;
 }
 
-.search__input {
+.search__container {
   position: relative;
 }
+
+/* .search__input {
+  position: relative;
+} */
 
 .search__input + .search__input {
   margin-top: 1.4rem;
@@ -53,7 +57,7 @@
     max-width: 100%;
   }
 
-  .search__input {
+  .search__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 16px;
